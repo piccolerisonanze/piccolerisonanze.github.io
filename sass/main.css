@@ -7487,6 +7487,9 @@ a.has-text-danger-dark:hover, a.has-text-danger-dark:focus {
 
 /* Custom styles */
 /* 1. Navbar */
+html {
+  scroll-behavior: smooth; }
+
 img.has-shadow {
   box-shadow: 0 0.25em 0.3em -0.125em rgba(0, 0, 0, 0.1), 0 0px 0 1px rgba(0, 0, 0, 0.02); }
 
@@ -7548,6 +7551,11 @@ section.has-bg-img-girotondo::before {
   bottom: 0;
   left: 0;
   right: 0; }
+
+.card .is-overlay {
+  position: absolute;
+  top: -1em;
+  z-index: 3; }
 
 .articles {
   margin: 5rem 0;
@@ -7663,8 +7671,3 @@ input:focus {
 .fas {
   color: var(--textLight);
   margin-right: 1rem; }
-
-.card .is-overlay {
-  position: absolute;
-  top: -1em;
-  z-index: 3; }

@@ -17,12 +17,6 @@
     <link
         rel="stylesheet"
         href="http://piccolerisonanze.it/sass/main.css" />
-    
-    <link
-        rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.13.0/css/OverlayScrollbars.min.css"
-        integrity="sha512-pYQcc5kgavar0ah58/O8hw/6Tbo3mWlmQTmvoi1i96cBz7jQYS9as5J+Nfy32rAHY6CgR9ExwnFMcBdGVcKM7g=="
-        crossorigin="anonymous" />
 
     
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -33,11 +27,6 @@
     <script defer="" src="https://use.fontawesome.com/releases/v5.10.0/js/all.js"></script>
 
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.13.0/js/jquery.overlayScrollbars.min.js"
-        integrity="sha512-KltPgUHPHUvpLQvgtMveflxNopj998UE0fGQEGXQIKAA7b3SEJj2g832nnrxYDWGA5rbiF2mXX0lFE5Q37/03w=="
-        crossorigin="anonymous"></script>
-
-    
     <script defer="" src="/js/navbar.js"></script>
 </head>
 <body><div id="content">
@@ -45,11 +34,10 @@
   <div class="hero-head">
     <nav class="navbar is-transparent " role="navigation" aria-label="main navigation" >
     <div class="navbar-brand px-4 py-2">
-        <div class="navbar-item" href="/">
+        <a class="navbar-item" href="/">
             <figure class="image is-64x64">
                 <img src="/images/melarossa_small-140w.jpg" class="is-rounded has-shadow" >
             </figure>
-
         </a>
 
     <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarMain">
@@ -61,11 +49,10 @@
 
     <div id="navbarMain" class="navbar-menu is-family-sans-serif has-text-weight-semibold">
         <div class="navbar-start">
-            <a class="navbar-item"> Piccole Risonanze </a>
-            <a class="navbar-item"> Chi siamo </a>
-            <a class="navbar-item"> Novità </a>
-            <a class="navbar-item"> Acquista </a>
-            <a class="navbar-item"> Contatti </a>
+            <a class="navbar-item" href="/"> Piccole Risonanze </a>
+            <a class="navbar-item" href="#acquista"> Acquista </a>
+            <a class="navbar-item" href="#novita"> Novità </a>
+            <a class="navbar-item" href="#contatti"> Contatti </a>
         </div>
     </div>
 </nav>
@@ -78,8 +65,8 @@
           <h1 class="title is-1">404</h1>
           <h2 class="subtitle is-4">Oops! Page not found</h2></div>
         <div class="column">
-          <figure class="image ">
-            <img src="img/network-1.png" alt="" width="">
+          <figure class="image">
+            <img src="/images/luna_scontornata.png" alt="" width="">
           </figure>
         </div>
       </div>
