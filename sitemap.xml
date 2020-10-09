@@ -17,7 +17,12 @@
   </url>
   
   <url>
-    <loc>http://piccolerisonanze.it/blog/post1/</loc>
+    <loc>http://piccolerisonanze.it/blog/post3/</loc>
+  </url>
+  
+  <url>
+    <loc>http://piccolerisonanze.it/tags/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -25,12 +30,7 @@
   </url>
   
   <url>
-    <loc>http://piccolerisonanze.it/blog/post3/</loc>
-  </url>
-  
-  <url>
-    <loc>http://piccolerisonanze.it/tags/</loc>
-    <priority>0</priority>
+    <loc>http://piccolerisonanze.it/blog/post1/</loc>
   </url>
   
 </urlset>
