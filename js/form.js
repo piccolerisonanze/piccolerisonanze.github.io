@@ -1,4 +1,4 @@
-$("#buy_button").click(function(){
+$(".modal-open").click(function(){
   $("#buy_modal").addClass("is-active");
 });
 
