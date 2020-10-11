@@ -29,7 +29,11 @@
     <script defer="" src="https://use.fontawesome.com/releases/v5.10.0/js/all.js"></script>
 
     
+    <script src="https://js.stripe.com/v3/"></script>
+
+    
     <script defer="" src="/js/navbar.js"></script>
+    <script defer="" src="/js/form.js"></script>
 </head>
 
 	<body>
@@ -131,15 +135,136 @@
             </div>
         </div>
     </div>
-    <div class="my-6 has-text-centered">
-        <button class="button is-medium is-danger is-family-sans-serif has-text-weight-bold is-uppercase is-outlined">
-            <span class='icon is-medium'>
-                <i class="fa fa-shopping-cart" aria-hidden="true"></i>
-            </span>
-            <span> Acquista </span>
-        </button>
+
+    <div id="buy_modal" class="modal">
+  <div class="modal-background"></div>
+  <div class="modal-content card">
+    <section class="card-content">
+      <h1 class="title has-text-centered">Acquista</h1>
+      <article class="message is-primary is-hidden" id="success">
+    <div class="message-header">
+      <p class="is-size-4 is-family-sans-serif">
+          <span class="icon has-text-white"><i class="far fa-check-circle"></i></span>
+          <span> Grazie per il tuo ordine</span>
+      </p>
     </div>
+    <div class="message-body">
+      La transazione è stata eseguita con successo.
+    </div>
+  </article>
+  <article class="message is-danger is-hidden" id="cancel">
+      <div class="message-header">
+          <p class="is-size-4 is-family-sans-serif">
+              <span class="icon has-text-white"><i class="fas fa-times"></i></span>
+              <span> Ops! Qualcosa è andato storto</span>
+          </p>
+      </div>
+      <div class="message-body">
+        C'è stato un errore con la transazione ed è stata annullata. Riprova più tardi o contattaci.
+      </div>
+    </article>
+
+      
+<div class="columns">
+
+<div class="column">
+<div class="card stripe-buy-button"
+        data-checkout-mode="payment"
+        data-price-id="price_1Hb1MDFlI70yk6QuycG1hXMZ">
+  <div class="card-image">
+    <figure class="image is-1by1">
+      <img src="/images/albums/copertina_venticanti.jpg" alt="Venti canti venti anni - Copertina">
+    </figure>
+  </div>
+  <div class="card-content">
+        <h2 class="title is-4">Venti canti venti anni</h2>
+        <p class="subtitle is-6"> € 20 </p>
+    <div class="has-text-centered">
+      <span> Libro con CD Audio di canti europei per l&#39;infanzia.<span>
+    </div>
+  </div>
+  <div class="class-footer has-text-centered">
+      <a
+        class="stripe-buy-button card-footer-item is-family-sans-serif has-text-weight-bold is-uppercase"
+        data-checkout-mode="payment"
+        data-price-id="price_1Hb1MDFlI70yk6QuycG1hXMZ"
+      >
+      <span class='icon is-medium'>
+          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+      </span>
+      <span class=""> Acquista </span>
+      </a>
+  </div>
+</div>
+</div>
+
+
+<div class="column">
+<div class="card stripe-buy-button"
+        data-checkout-mode="payment"
+        data-price-id="price_1Hb1MsFlI70yk6QuJSL62JHZ">
+  <div class="card-image">
+    <figure class="image is-1by1">
+      <img src="/images/albums/copertina_riva.jpg" alt="A la riva de lo mare - Copertina">
+    </figure>
+  </div>
+  <div class="card-content">
+        <h2 class="title is-4">A la riva de lo mare</h2>
+        <p class="subtitle is-6"> € 20 </p>
+    <div class="has-text-centered">
+      <span> Libro con CD Audio di canti tradizionali italiani per l&#39;infanzia.<span>
+    </div>
+  </div>
+  <div class="class-footer has-text-centered">
+      <a
+        class="stripe-buy-button card-footer-item is-family-sans-serif has-text-weight-bold is-uppercase"
+        data-checkout-mode="payment"
+        data-price-id="price_1Hb1MsFlI70yk6QuJSL62JHZ"
+      >
+      <span class='icon is-medium'>
+          <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+      </span>
+      <span class=""> Acquista </span>
+      </a>
+  </div>
+</div>
+</div>
+
+
+</div>
+
+      <div>
+<p class="has-text-weight-bold"> Info </p>
+<p>
+    <span class="icon has-text-info"> <i class="fas fa-lock"></i> </span>
+    <span> Pagamento sicuro con carta di credito tramite <a href="http://stripe.com"> Stripe </a> </span>
+</p>
+<p>
+    <span class="icon has-text-info"><i class="fas fa-truck"></i></span>
+    <span> Spese di spedizione incluse per una consegna in 5 giorni lavorativi in <strong> tutta Italia. </strong> </span>
+</p>
+<p>
+    <span class="icon has-text-info"><i class="fas fa-envelope"></i></span>
+    <span>Per spedizioni all'estero o per altre domande contattaci a <a href="mailto:info@piccolerisonanze.it"> info@piccolerisonanze.it </a> </span>
+</p>
+</div>
+
     </section>
+  </div>
+  <button class="modal-close is-large" aria-label="close"></button>
+</div>
+
+<div class="my-6 has-text-centered">
+    <button id="buy_button" class="button is-medium is-warning is-family-sans-serif has-text-weight-bold is-uppercase pulse-grow-on-hover">
+        <span class='icon is-medium'>
+            <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+        </span>
+        <span> Acquista </span>
+    </button>
+</div>
+
+
+</section>
 
 
         <section class="hero is-small has-background-warning">
