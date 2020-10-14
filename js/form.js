@@ -9,7 +9,7 @@ $(".modal-close").click(function(){
 /* Code from github-pages-stripe-checkout sample: https://github.com/stripe-samples/github-pages-stripe-checkout/ */
 
 // Replace with your own publishable key: https://dashboard.stripe.com/test/apikeys
-var PUBLISHABLE_KEY = 'pk_test_51Hb1FsFlI70yk6Quawu646Y6RbPHIp2ngIJTKJkC3YA2UMsIeo8McApqGj2ZMpulFd5nuTKUdCCH9YHpAnsfYMZD00ZUVwlf3K';
+var PUBLISHABLE_KEY = "pk_live_51Hb1FsFlI70yk6Qu0cQT312aEThEF1t9gUvzm7Qy3wIWIrXDl29JFJ36r7vPsFgH5Hdz3cXVUNINOdRiLs77Btdr00B5YyIVHc";
 // Replace with the domain you want your users to be redirected back to after payment
 var DOMAIN = location.href.replace(/[^/]*$/, '');
 
