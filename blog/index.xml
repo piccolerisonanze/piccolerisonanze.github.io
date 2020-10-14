@@ -6,46 +6,33 @@
     <description>Recent content in Blogs on Piccole Risonanze</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>it-it</language>
-    <lastBuildDate>Sat, 10 Oct 2020 22:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2020 06:20:15 +0000</lastBuildDate>
     
 	<atom:link href="http://piccolerisonanze.it/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Un post dalla foresta</title>
-      <link>http://piccolerisonanze.it/blog/un-post-dalla-foresta/</link>
-      <pubDate>Sat, 10 Oct 2020 22:00:00 +0000</pubDate>
-      
-      <guid>http://piccolerisonanze.it/blog/un-post-dalla-foresta/</guid>
-      <description>Un nuovo post - Forestry CMS.
- Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</description>
-    </item>
-    
-    <item>
-      <title>Il tuo progetto</title>
-      <link>http://piccolerisonanze.it/blog/post3/</link>
-      <pubDate>Sat, 20 Oct 0007 19:15:00 +0000</pubDate>
-      
-      <guid>http://piccolerisonanze.it/blog/post3/</guid>
-      <description>In eu mi bibendum neque egestas congue quisque egestas diam. Enim nec dui nunc mattis enim ut tellus. Ut morbi tincidunt augue interdum velit euismod in. At in tellus integer feugiat scelerisque varius morbi enim nunc. Vitae suscipit tellus mauris a diam. Arcu non sodales neque sodales ut etiam sit amet. In eu mi bibendum neque egestas congue quisque egestas diam. Enim nec dui nunc mattis enim ut tellus. Ut morbi tincidunt augue interdum velit euismod in.</description>
-    </item>
-    
-    <item>
-      <title>Un altro progetto</title>
-      <link>http://piccolerisonanze.it/blog/post2/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>http://piccolerisonanze.it/blog/post2/</guid>
-      <description>In eu mi bibendum neque egestas congue quisque egestas diam. Enim nec dui nunc mattis enim ut tellus. Ut morbi tincidunt augue interdum velit euismod in. At in tellus integer feugiat scelerisque varius morbi enim nunc. Vitae suscipit tellus mauris a diam. Arcu non sodales neque sodales ut etiam sit amet. In eu mi bibendum neque egestas congue quisque egestas diam. Enim nec dui nunc mattis enim ut tellus. Ut morbi tincidunt augue interdum velit euismod in.</description>
-    </item>
-    
-    <item>
-      <title>Un progetto</title>
+      <title>Mani in Coro</title>
       <link>http://piccolerisonanze.it/blog/post1/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 14 Oct 2020 06:20:15 +0000</pubDate>
       
       <guid>http://piccolerisonanze.it/blog/post1/</guid>
-      <description>In eu mi bibendum neque egestas congue quisque egestas diam. Enim nec dui nunc mattis enim ut tellus. Ut morbi tincidunt augue interdum velit euismod in. At in tellus integer feugiat scelerisque varius morbi enim nunc. Vitae suscipit tellus mauris a diam. Arcu non sodales neque sodales ut etiam sit amet. In eu mi bibendum neque egestas congue quisque egestas diam. Enim nec dui nunc mattis enim ut tellus. Ut morbi tincidunt augue interdum velit euismod in.</description>
+      <description>Piccole Risonanze lancia un progetto di integrazione sociale attraverso l&amp;rsquo;arte e la musica. Si rivolge ugualmente a bambini diversamente abili e normodotati. Il progetto offre l&amp;rsquo;occasione per esprimere le potenzialità dei bambini con il movimento, il suono e la lingua dei segni (LIS).
+Il coro mani bianche &amp;ldquo;Mani in Coro&amp;rdquo; è diretto da Isabelle Binet, con esperienza di oltre dieci anni nel campo della direzione dei cori Mani Bianche della Scuola Popolare di Musica di Testaccio, ispirati alla filosofia del M.</description>
+    </item>
+    
+    <item>
+      <title>Gioca la tua Fiaba</title>
+      <link>http://piccolerisonanze.it/blog/un-post-dalla-foresta/</link>
+      <pubDate>Mon, 12 Oct 2020 22:00:00 +0000</pubDate>
+      
+      <guid>http://piccolerisonanze.it/blog/un-post-dalla-foresta/</guid>
+      <description>Racconti itineranti dalla roulotte Workshop teatrali e musicali per bambini, ragazzi e adulti.
+ Storie di strade e di venti
+Storie di prati e di periferie
+Storie di giostre e di cavalli
+ Un&amp;rsquo;altra scuola è possibile. Nell’epoca delle distanze, nell’epoca della didattica digitale, della solitudine e del disagio dei bambini delle periferie urbane, Piccole Risonanze propone un laboratorio teatrale e musicale all’aperto per piccoli gruppi.
+Un allestimento suggestivo dentro e fuori di una roulotte risveglia ricordi di nomadismo, di transumanza, di vite erranti che tramandano saperi artistici.</description>
     </item>
     
   </channel>
